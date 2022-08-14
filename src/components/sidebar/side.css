@@ -1,0 +1,137 @@
+.header-sidebar{
+    display:flex;
+    background-color:#202c33;
+    height:60px;
+}
+.sidebar{
+    position:relative;
+    max-width:480px;
+    min-width:440px;
+    height:100%;
+}
+.ico-newChat, .ico-State, .ico-threeDots{
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right:22px;
+}
+.ico-State{
+    margin-left:auto;
+}
+.body-sidebar{
+    position:relative;
+    background-color:#111B21;
+    height: calc(100% - 105px);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+.container-search-chat{
+    display:flex;
+    margin-left:12px;
+    width:380px;
+    background-color:#2c3841;
+    border-radius:6px;
+    margin-top:10px;
+}
+.container-search-chat form{
+    margin-top:auto;
+    width:85%;
+    margin-bottom:auto;
+}
+.container-search-chat button{
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:10px;
+    background-color:#2c3841;
+    border:none;
+    
+}
+.container-search-chat button:hover{
+    cursor:pointer;
+}
+.no-read-chat button{
+    background-color:#111B21;
+    border:none;
+    color:white;
+    width:50px;
+    height:35px;
+}
+.no-read-chat{
+    margin-top:10px;
+}
+.input-search{
+    background-color:#2c3841;
+    margin-left:20px;
+    margin-bottom:auto;
+    margin-top:auto;
+    border-radius:6px;
+    border:none;
+    color:white;
+    width:100%;
+    font-size: medium;
+}
+.input-search::placeholder{
+    color:rgb(159, 169, 179);
+}
+.input-search:focus{
+    outline: none;
+}
+.arrowpng{
+    color:gray;
+}
+.our-chat{
+    position:relative;
+    height:calc(100% -45px);
+    width:100%;
+    overflow: scroll;
+
+}
+.searching-chat{
+    width:100%;
+    display:flex;
+    position:relative;
+    background-color:#111B21;
+}
+.archive{
+    margin-top:20px;
+    margin-left:15px;
+    display:flex;
+    height:49px;
+}
+.archive:hover{
+    cursor:pointer;
+}
+.archive button, p, b{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.archive button{
+    background-color:#111B21;
+    border:none;
+    color:#047c66;
+}
+.archive p, b{
+    font-size:20px;
+    font-family:'Segoe UI', "Helvetica Neue", Geneva, Verdana, sans-serif;
+}
+.archive p{
+    color:white;
+}
+.archive-info b{
+    color: #047c66;
+    margin-right:30px;
+    margin-left:auto;
+}
+.archive-info{
+    width:100%;
+    margin-left:30px;
+    display:flex;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-color:rgb(71, 63, 63);
+}
+.UserImg:hover{
+    cursor:pointer;
+}
+.ico-newChat:hover{
+    cursor:pointer;
+}

@@ -69,11 +69,12 @@ export default function App(){
 
   const sendMessage = (e)=>{
     e.preventDefault();
+    var newMessage = e.target.message.value;
+    if(newMessage === ''|| newMessage === null )return;
     const d = new Date();
     let hour = d.getHours();
     let minute = d.getMinutes()
     let strFullHour = rtnHour(hour, minute);
-    var newMessage = e.target.message.value;
     SetMessages((oldMessages)=>{
       oldMessages = [...oldMessages, {user:"Me", message: newMessage, hour: strFullHour}];
       return oldMessages;

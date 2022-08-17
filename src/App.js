@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Modal from './components/modal/modal';
 import Chat from './components/chat/Chat';
-import './app.css';
+import './App.css';
 //import axios from 'axios';
 let map = new Map();
 map.set("hola", ["Hey, que tal?", "Hola", "Como estas?", "klk"]);
